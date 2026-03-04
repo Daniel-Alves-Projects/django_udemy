@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-5)_&rfr0-&4&)$xc&46u!by%^@d*0lhbx2h9ox9b_@(ngyd+_4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -69,7 +68,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'setup.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
@@ -102,9 +100,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America_Sao_Paulo'
 
 USE_I18N = True
 
